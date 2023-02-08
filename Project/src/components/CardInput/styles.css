@@ -1,0 +1,73 @@
+.card__values--entry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-left: 3px solid #03B898;
+    border-radius: 4px;
+
+    padding: 5px 10px;
+}
+.card__values--desp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-left: 3px solid white;
+    border-radius: 4px;
+
+    padding: 5px 10px;
+}
+
+.desc-type{
+    display: flex;
+    flex-direction: column;
+}
+.desc-type > p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.desc-type > span {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.val-delete{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.val-delete > img {
+    border: 5px solid #E9ECEF;
+    border-radius: 4px;
+
+    width: 15px;
+    height: 15px;
+
+    cursor: pointer;
+}
+
+@media(max-width: 768px){
+    .card__values--desp{
+        justify-content: inherit;
+        align-items: unset;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .card__values--entry{
+        justify-content: inherit;
+        align-items: unset;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .desc-type {
+        gap: 10px;
+    }
+
+    .val-delete{
+        flex-direction: column;
+        gap: 10px;
+        align-items: inherit;
+    }
+}

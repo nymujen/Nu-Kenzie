@@ -1,0 +1,26 @@
+.header__dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0;
+}
+.header__dashboard > h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.header__dashboard > h2 > span {
+    color: #FD377E;
+}
+.header__dashboard > button {
+    background-color: #E9ECEF;
+
+    height: 38px;
+
+    border: 0;
+    border-radius: 8px;
+
+    padding: 5px 20px;
+
+    cursor: pointer;
+}

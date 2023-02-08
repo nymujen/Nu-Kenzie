@@ -1,0 +1,36 @@
+.dashboard__container {
+    padding: 0 200px;
+}
+
+.dashboard__content {
+    display: flex;
+    gap: 50px;
+
+    margin-top: 50px;
+}
+
+.values__container {
+    width: 100%;
+}
+.no-value{
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+.values__container > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 0;
+}
+
+@media(max-width: 768px){
+    .dashboard__container{
+        padding: 0 20px;
+    }
+    .dashboard__content{
+        flex-direction: column;
+    }
+}
