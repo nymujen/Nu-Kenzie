@@ -25,6 +25,16 @@
 
     padding: 0;
 }
+.values__btns-and-list{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.values__btns-container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
 
 @media(max-width: 768px){
     .dashboard__container{
